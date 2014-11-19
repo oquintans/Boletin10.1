@@ -16,7 +16,11 @@ public class Ejercicio1 {
      */
     public static void main(String[] args) {
         Juegaso par=new Juegaso();
+        do{
         par.jugar();
+        }while("Si".equalsIgnoreCase(par.jugar()));
+
+        
     }
     
 }
